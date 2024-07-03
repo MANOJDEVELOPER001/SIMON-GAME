@@ -1,0 +1,49 @@
+body{
+    background-color:#011F3F;
+}
+h1{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:80px;
+    color:#FFECB3;
+    text-align:center;
+    position:relative;
+    left:-100px
+    word-spacing:3px;
+    letter-spacing:10px;
+}
+.container{
+    display:grid;
+    grid-template-columns:220px 220px;
+    grid-template-rows:220px 220px;
+    gap:50px;
+    margin-left:500px;
+    margin-top:100px;
+}
+button{
+    border-radius:25px;
+    border:10px solid black;
+}
+.first{
+    background-color:green;
+}
+.second{
+    background-color:red;
+}
+.third{
+    background-color:yellow;
+}
+.fourth{
+    background-color:blue;
+}
+.animation{
+    background-color:red;
+}
+.animated{
+    box-shadow:0 0 10px grey;
+    opacity:50%;
+}
+
+
+
