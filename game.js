@@ -47,16 +47,16 @@ function play_sound(random) {
     var audio;
     switch (random) {
         case 0:
-            audio = new Audio("sounds/mixkit-arcade-game-jump-coin-216.mp3");
+            audio = new Audio("mixkit-arcade-game-jump-coin-216.mp3");
             break;
         case 1:
-            audio = new Audio("sounds/mixkit-click-melodic-tone-1129.mp3");
+            audio = new Audio("mixkit-click-melodic-tone-1129.mp3");
             break;
         case 2:
-            audio = new Audio("sounds/mixkit-game-click-1114.mp3");
+            audio = new Audio("mixkit-game-click-1114.mp3");
             break;
         case 3:
-            audio = new Audio("sounds/mixkit-negative-tone-interface-tap-2569 (1).mp3");
+            audio = new Audio("mixkit-negative-tone-interface-tap-2569 (1).mp3");
             break;
     }
     if (audio) {
@@ -101,7 +101,7 @@ function checker(check, check1) {
             setTimeout(function(){play_animation(random);},100);
         }
     else{
-            var audio = new Audio("sounds/beep.mp3");
+            var audio = new Audio("beep.mp3");
             audio.play();
             $("body").addClass("animation");
         setTimeout(function(){
